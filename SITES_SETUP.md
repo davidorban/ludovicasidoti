@@ -19,10 +19,10 @@ Three separate GitHub Pages sites have been created for Ludovica Sidoti:
 - **Description**: Simple link list page (like Linktree)
 
 ### 3. Travel Blog - ludovica.blog
-- **Repository**: https://github.com/davidorban/ludoblog
-- **Temporary URL**: https://davidorban.github.io/ludoblog/
+- **Repository**: https://github.com/davidorban/ludovicablog
+- **Temporary URL**: https://davidorban.github.io/ludovicablog/
 - **Custom Domain**: ludovica.blog (pending DNS configuration)
-- **Location**: `/Users/davidorban/Dev/ludovicasidoti/ludoblog`
+- **Location**: `/Users/davidorban/Dev/ludovicasidoti/ludovicablog`
 - **Description**: Travel blog with post grid layout
 
 ## DNS Configuration Required
@@ -39,7 +39,7 @@ For each domain, add these **A records** at your domain registrar:
 ### Domains to configure:
 1. **ludovicasidoti.com** → points to davidorban.github.io/ludovicasidoti
 2. **ludo.you** → points to davidorban.github.io/ludoyou
-3. **ludovica.blog** → points to davidorban.github.io/ludoblog
+3. **ludovica.blog** → points to davidorban.github.io/ludovicablog
 
 ## Next Steps
 
@@ -76,7 +76,7 @@ git commit -m "Update description"
 git push
 
 # Travel blog
-cd /Users/davidorban/Dev/ludovicasidoti/ludoblog
+cd /Users/davidorban/Dev/ludovicasidoti/ludovicablog
 git add .
 git commit -m "Update description"
 git push
