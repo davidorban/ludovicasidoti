@@ -11,18 +11,18 @@ Three separate GitHub Pages sites have been created for Ludovica Sidoti:
 - **Location**: `/Users/davidorban/Dev/ludovicasidoti`
 - **Description**: Professional personal website
 
-### 2. Link List - ludo.you
-- **Repository**: https://github.com/davidorban/ludoyou
-- **Temporary URL**: https://davidorban.github.io/ludoyou/
-- **Custom Domain**: ludo.you (pending DNS configuration)
-- **Location**: `/Users/davidorban/Dev/ludovicasidoti/ludoyou`
+### 2. Link List - meetlulu.org
+- **Repository**: https://github.com/davidorban/meetlulu
+- **Temporary URL**: https://davidorban.github.io/meetlulu/
+- **Custom Domain**: meetlulu.org
+- **Location**: `/Users/davidorban/Dev/ludovicasidoti/meetlulu`
 - **Description**: Simple link list page (like Linktree)
 
-### 3. Travel Blog - ludovica.blog
-- **Repository**: https://github.com/davidorban/ludovicablog
-- **Temporary URL**: https://davidorban.github.io/ludovicablog/
-- **Custom Domain**: ludovica.blog (pending DNS configuration)
-- **Location**: `/Users/davidorban/Dev/ludovicasidoti/ludovicablog`
+### 3. Travel Blog - lululabs.org
+- **Repository**: https://github.com/davidorban/lululabs
+- **Temporary URL**: https://davidorban.github.io/lululabs/
+- **Custom Domain**: lululabs.org
+- **Location**: `/Users/davidorban/Dev/ludovicasidoti/lululabs`
 - **Description**: Travel blog with post grid layout
 
 ## DNS Configuration Required
@@ -38,8 +38,8 @@ For each domain, add these **A records** at your domain registrar:
 
 ### Domains to configure:
 1. **ludovicasidoti.com** → points to davidorban.github.io/ludovicasidoti
-2. **ludo.you** → points to davidorban.github.io/ludoyou
-3. **ludovica.blog** → points to davidorban.github.io/ludovicablog
+2. **meetlulu.org** → points to davidorban.github.io/meetlulu
+3. **lululabs.org** → points to davidorban.github.io/lululabs
 
 ## Next Steps
 
@@ -48,8 +48,8 @@ For each domain, add these **A records** at your domain registrar:
 3. **Customize content**:
    - Update email addresses in all sites
    - Add real content to ludovicasidoti.com
-   - Add social media links to ludo.you
-   - Add blog posts to ludo.blog
+   - Add social media links to meetlulu.org
+   - Add blog posts to lululabs.org
    - Replace placeholder images/emojis with real photos
 
 4. **Optional enhancements**:
@@ -70,13 +70,13 @@ git commit -m "Update description"
 git push
 
 # Link list
-cd /Users/davidorban/Dev/ludovicasidoti/ludoyou
+cd /Users/davidorban/Dev/ludovicasidoti/meetlulu
 git add .
 git commit -m "Update description"
 git push
 
 # Travel blog
-cd /Users/davidorban/Dev/ludovicasidoti/ludovicablog
+cd /Users/davidorban/Dev/ludovicasidoti/lululabs
 git add .
 git commit -m "Update description"
 git push
